@@ -1,4 +1,8 @@
 //create a calculator object with methods for addition, subtraction, multiplication, and division
+//potential improvements: add error handling for division by zero
+//optimization: use arrow functions for more concise syntax
+//Improve documentation with examples of usage
+'use strict';
 const calculator = {
     add: function(a, b) {
         return a + b;
@@ -16,6 +20,10 @@ const calculator = {
         return a / b;
     }
 };
+//potential improvement: add more operations like power, modulus, etc.
+//optimization: use a switch statement for better readability in future expansions
+
+module.exports = calculator;
 
 // Example usage:
 console.log(calculator.add(5, 3));        // Output: 8
